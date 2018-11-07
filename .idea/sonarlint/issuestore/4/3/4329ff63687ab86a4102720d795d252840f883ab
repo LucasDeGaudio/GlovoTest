@@ -1,23 +1,0 @@
-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(·î‡Îøÿÿÿÿ8‹â¨‡î,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(éæ„¨8ß»¯ÿí,
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¸„¿8şÈ‘†î,
-hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8§ôÆ€î,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ù¿®ªüÿÿÿÿ8î…ıãí,
-Xsquid:S2629"7Use the built-in formatting to construct this argument.(°ÿÃøÿÿÿÿ8†í¥€î,
-ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(£Ëö¶şÿÿÿÿ8–‚‡î,
-Ksquid:S1066"/Merge this if statement with the enclosing one.(‘åÆ‰8„„ìğë,
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(è×¡ûÿÿÿÿ8´Ï††î,
-Hsquid:S1612",Replace this lambda with a method reference.(¬¬¤¦8§ôÆ€î,
-|squid:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(æ¦˜ßúÿÿÿÿ8ˆ¾®ñë,
-Msquid:S1612",Replace this lambda with a method reference.(é€†‘üÿÿÿÿ8§ôÆ€î,
-Ssquid:S2629"7Use the built-in formatting to construct this argument.(ò‡áì8ıˆ¶çë,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ğ¤§G8î…ıãí,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ù¡ï‚şÿÿÿÿ8‹â¨‡î,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(€Å¸şÿÿÿÿ8§ôÆ€î,
