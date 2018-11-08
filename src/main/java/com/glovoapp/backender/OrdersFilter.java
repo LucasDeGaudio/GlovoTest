@@ -58,6 +58,7 @@ public class OrdersFilter {
         Boolean withBox = courier.getBox();
         Boolean withElectricVehicle = analyzeVehicle(courier.getVehicle());
 
+        //log.info("courier: " + courier.getId());
         //log.info("withBox: " + withBox);
         //log.info("withElectricVehicle: " + withElectricVehicle);
 
@@ -83,16 +84,9 @@ public class OrdersFilter {
             }
         }
 
-        System.out.println("unsorted map");
-        System.out.println(unsortedMap);
-
         Map<Order, Double> sortedMap = sortOrdersByDistance(unsortedMap);
 
-        System.out.println("sorted by distance");
-        System.out.println(sortedMap);
-
         List<List<Order>> ordersGrouped = groupOrdersInSlots(sortedMap);
-
 
         List<OrderVM> finalList = new ArrayList<>();
 
@@ -100,9 +94,6 @@ public class OrdersFilter {
             List<OrderVM> res = specificSort(list);
             finalList.addAll(res);
         }
-
-        System.out.println("finish");
-        System.out.println(finalList);
 
         log.info("Leaving filter");
 
