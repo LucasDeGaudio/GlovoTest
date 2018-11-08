@@ -72,7 +72,8 @@ class API {
         }
 
         if (courier == null) {
-            return new ResponseEntity<>("The Courier does not exists", HttpStatus.BAD_REQUEST);
+          log.info("The Courier does not exists: " + courierId);
+          return new ResponseEntity<>("The Courier does not exists", HttpStatus.BAD_REQUEST);
         }
 
         try {

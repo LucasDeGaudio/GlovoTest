@@ -116,7 +116,6 @@ public class OrdersFilter {
         log.info("Leaving analyzeVehicle");
 
         return listWords.stream().map(String::toLowerCase).anyMatch(s -> vehicleType.contains(s));
-
     }
 
 

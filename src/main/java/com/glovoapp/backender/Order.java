@@ -70,11 +70,11 @@ class Order {
         if (o == null || getClass() != o.getClass()) return false;
         Order order = (Order) o;
         return Objects.equals(id, order.id) &&
-                Objects.equals(description, order.description) &&
-                Objects.equals(food, order.food) &&
-                Objects.equals(vip, order.vip) &&
-                Objects.equals(pickup, order.pickup) &&
-                Objects.equals(delivery, order.delivery);
+          Objects.equals(description, order.description) &&
+          Objects.equals(food, order.food) &&
+          Objects.equals(vip, order.vip) &&
+          Objects.equals(pickup, order.pickup) &&
+          Objects.equals(delivery, order.delivery);
     }
 
     @Override
@@ -82,27 +82,15 @@ class Order {
         return Objects.hash(id, description, food, vip, pickup, delivery);
     }
 
-/*
-    @Override
-    public String toString() {
-        return "Order{" +
-                "id='" + id + '\'' +
-                ", description='" + description + '\'' +
-                ", food=" + food +
-                ", vip=" + vip +
-                ", pickup=" + pickup +
-                ", delivery=" + delivery +
-                '}';
-    }
- */
-
     @Override
     public String toString() {
         return "Order{" +
           "id='" + id + '\'' +
+          ", description='" + description + '\'' +
           ", food=" + food +
           ", vip=" + vip +
+          ", pickup=" + pickup +
+          ", delivery=" + delivery +
           '}';
     }
-
 }
